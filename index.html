@@ -14,15 +14,15 @@
 				<div class="container col-md-3">
 					<img src="img/logo.ico">
 				</div>
-				<ul class="col-md-9 nav nav-pills navbar-right">
-					<li class="col-md-2"><a href="#" role="presentation" class=>Inicio</a></li>
-					<li class="col-md-2"><a href="#" role="presentation">Pandas</a></li>
-					<li class="col-md-2"><a href="#origen" role="presentation">Historia</a></li>
-					<li class="col-md-2"><a href="#extincion" role="presentation">Extinción</a></li>
+				<ul class=" nav nav-pills navbar-right">
+					<li class="active"><a href="#" role="presentation">Inicio</a></li>
+					<li><a href="#" role="presentation">Pandas</a></li>
+					<li><a href="#origen" role="presentation">Historia</a></li>
+					<li><a href="#extincion" role="presentation">Extinción</a></li>
 				</ul>		
 			</nav>
 		</header>
-		<section class="container col-12 ">
+		<section class="container col-md-12">
 			<div class="col-md-3 cont-pandas">
 				<p >&times</p>
 				<img src="img/imagen-1.jpg" class="img">
@@ -40,13 +40,19 @@
 				<img src="img/imagen-4.jpg" class="img">
 			</div>
 		</section>
-		<section class="container cont-butt">
-			<button id="orign">Origen</button>
-			<button id="extcn">Extinción</button>
-			<button id="restr">Restaurar Fotos</button>
+		<section class="container row col-md-12 text-center">
+			<div class="col-md-4">
+				<button id="orign" class="btn-lg btn btn-primary">Origen</button>
+			</div>
+			<div class="col-md-4">
+				<button id="orign" class="btn-lg btn btn-primary">Extinción</button>
+			</div>
+			<div class="col-md-4">
+				<button id="orign" class="btn-lg btn btn-primary">Restaurar</button>
+			</div>
 		</section>
-		<section class="container cont-text" id="textos">
-			<div class="cont-p" id="origen">
+		<section class="container col-md-12" id="textos">
+			<div class="col-md-6 text-justify" id="origen">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -62,7 +68,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
 			</div>
-			<div class="cont-p" id="extincion">
+			<div class="col-md-6 text-justify" id="extincion">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -80,17 +86,14 @@
 			</div>
 		</section>
 		<footer class="container">
-			<div class="container cont-log-footer">
-				<img src="assets/img/chicas-del-coro.jpg" class="logo-footer">
-			</div>
-			<ul class="container">
-				<li>EL EQUIPO</li>
-				<li>PROYECTOS</li>
-				<li>CONTACTO</li>
+			<ul class="container nav row col-md-12 text-center">
+				<li class="col-md-4"><a href="#">El equipo</a></li>
+				<li class="col-md-4"><a href="#">Proyectos</a></li>
+				<li class="col-md-4"><a href="#">Contacto</a></li>
 			</ul>
 		</footer>
-		<span class="container copyr">
-			<h3>Copyright © 2017</h3>
+		<span class="container col-md-12 row text-center">
+			<h5>Copyright © 2017</h5>
 		</span>
 	</body>
 </html>
